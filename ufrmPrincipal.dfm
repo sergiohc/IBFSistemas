@@ -1,0 +1,45 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'IBF Sistemas (Exerc'#237'cios)'
+  ClientHeight = 401
+  ClientWidth = 657
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  Menu = mmPrincipal
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mmPrincipal: TMainMenu
+    Left = 192
+    Top = 176
+    object mmListaDeExercicios: TMenuItem
+      Caption = 'Exercicios'
+      object Odmetro1: TMenuItem
+        Action = actmiOdometro
+      end
+      object Lanchonete1: TMenuItem
+        Action = actLanchonete
+      end
+    end
+  end
+  object actPrincipal: TActionList
+    Left = 264
+    Top = 176
+    object actmiOdometro: TAction
+      Caption = 'Od'#244'metro'
+      OnExecute = actmiOdometroExecute
+    end
+    object actLanchonete: TAction
+      Caption = 'Lanchonete'
+      OnExecute = actLanchoneteExecute
+    end
+  end
+end

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/12/04 10:31:19.000.043,=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/12/04 10:46:48.000.345,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmPrincipal.pas</Transaction>
+    <Transaction>2017/12/04 10:46:48.000.345,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmPrincipal.dfm</Transaction>
+    <Transaction>2017/12/04 10:47:01.000.594,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\IBF.dproj</Transaction>
+    <Transaction>2017/12/04 10:52:11.000.786,=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas</Transaction>
+    <Transaction>2017/12/04 10:52:41.000.939,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.dfm=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmOdometro.dfm</Transaction>
+    <Transaction>2017/12/04 10:52:41.000.939,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmOdometro.pas</Transaction>
+    <Transaction>2017/12/04 12:20:08.000.951,=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas</Transaction>
+    <Transaction>2017/12/04 12:22:20.000.386,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\uiVeiculo.pas</Transaction>
+    <Transaction>2017/12/04 13:56:31.000.963,=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas</Transaction>
+    <Transaction>2017/12/04 13:56:45.000.880,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\uVeiculo.pas</Transaction>
+    <Transaction>2017/12/04 16:08:11.000.372,=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas</Transaction>
+    <Transaction>2017/12/04 16:15:50.000.033,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.dfm=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmBalcao.dfm</Transaction>
+    <Transaction>2017/12/04 16:15:50.000.033,C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\Unit1.pas=C:\Users\Sergio\Documents\Embarcadero\Studio\Projects\IBF\ufrmBalcao.pas</Transaction>
+  </Transactions>
+</BorlandProject>

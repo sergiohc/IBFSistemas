@@ -1,0 +1,28 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'frmPrincipal'
+  ClientHeight = 374
+  ClientWidth = 734
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = mmPrincipal
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object mmPrincipal: TMainMenu
+    Left = 144
+    Top = 176
+  end
+  object actPrincipal: TActionList
+    Left = 224
+    Top = 176
+    object actmiOdometro: TAction
+      Caption = 'Od'#244'metro'
+    end
+  end
+end

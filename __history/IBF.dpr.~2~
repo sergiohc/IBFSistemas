@@ -1,0 +1,16 @@
+program IBF;
+
+uses
+  Vcl.Forms,
+  ufrmPrincipal in 'ufrmPrincipal.pas' {frmPrincipal},
+  ufrmOdometro in 'ufrmOdometro.pas' {frmOdometro};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmOdometro, frmOdometro);
+  Application.Run;
+end.

@@ -1,0 +1,49 @@
+unit ufrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.Actions, Vcl.ActnList, Vcl.Menus,
+  Vcl.StdCtrls, Vcl.Mask;
+
+type
+  TfrmPrincipal = class(TForm)
+    mmPrincipal: TMainMenu;
+    actPrincipal: TActionList;
+    actmiOdometro: TAction;
+    mmListaDeExercicios: TMenuItem;
+    Odmetro1: TMenuItem;
+    actLanchonete: TAction;
+    procedure actmiOdometroExecute(Sender: TObject);
+    procedure actLanchoneteExecute(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses ufrmOdometro, ufrmBalcao;
+
+procedure TfrmPrincipal.actLanchoneteExecute(Sender: TObject);
+begin
+  frmOdometro := TfrmOdometro.Create(nil);
+  frmOdometro.Show;
+end;
+
+procedure TfrmPrincipal.actmiOdometroExecute(Sender: TObject);
+var
+  frmOdometro: TfrmOdometro;
+begin
+  frmOdometro := TfrmOdometro.Create(nil);
+  frmOdometro.Show;
+end;
+
+end.
